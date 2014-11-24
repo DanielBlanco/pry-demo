@@ -1,0 +1,14 @@
+<div style="width: 300px; margin:auto; background-color: #eee; border: 1px solid;">
+  <h1 style="text-align:center"><%= @user.first_name %></h1>
+  <div style="text-align:center"><%= @user.hello %></div>
+  <br/>
+  <p style="padding: 5px;">
+    <%= @user.bio %>
+  </p>
+  <div style="color:red; font-weight:bold; text-align:center; font-weight: 10px"><%= @user.bio_word_count %> words</div>
+</div>
+<br/>
+<br/>
+<div style="text-align:center">
+  <%= link_to 'Go back', users_url %>
+</div>

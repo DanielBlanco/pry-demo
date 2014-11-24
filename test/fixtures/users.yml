@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+aatrox:
+  email: "aatrox@lol.com"
+  first_name: "Aatrox"
+  last_name: "Champion"
+  bio:
+
+ahri:
+  email: "ahri@lol.com"
+  first_name: "Ahri"
+  last_name: "Champion"
+  bio: "Unlike other foxes that roamed the woods of southern Ionia, Ahri had always felt a strange connection to the magical world around her; a connection that was somehow incomplete."
